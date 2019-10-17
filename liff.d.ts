@@ -41,6 +41,7 @@ interface Liff {
     scanCode(): Promise<{ value: string }>
     closeWindow(): void
     initPlugins(pluginList: string[]): Promise<void>
+    bluetooth: LiffBluetooth 
 }
 
 
