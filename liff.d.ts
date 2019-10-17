@@ -44,7 +44,4 @@ interface Liff {
     bluetooth: LiffBluetooth 
 }
 
-
-
-
 declare const liff: Liff
