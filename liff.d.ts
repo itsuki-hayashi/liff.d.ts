@@ -1,5 +1,5 @@
 import { Message } from "@line/bot-sdk"
-
+import { LiffBluetooth } from './bluetooth'
 type LiffErrorCode = 'INIT_FAILED' | 'INVALID_ARGUMENT' | 'UNAUTHORIZED'
     | 'FORBIDDEN' | 'INVALID_CONFIG' | 'INVALID_ID_TOKEN'
     | 'INVALID_ARGUMENT' | 'THINGS_NO_LINKED_DEVICES' | 'BLUETOOTH_SETTING_OFF'
@@ -41,7 +41,7 @@ interface Liff {
     scanCode(): Promise<{ value: string }>
     closeWindow(): void
     initPlugins(pluginList: string[]): Promise<void>
-    bluetooth: LiffBluetooth 
+    bluetooth: LiffBluetooth
 }
 
 declare const liff: Liff

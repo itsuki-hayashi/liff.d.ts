@@ -47,7 +47,7 @@ interface BluetoothRemoteGATTServer {
     getPrimaryService(serviceUUID: string): Promise<BluetoothRemoteGATTService>
 }
 
-interface LiffBluetooth {
+export interface LiffBluetooth {
     getAvailability(): Promise<boolean>
     requestDevice(options?: RequestDeviceOptions): Promise<BluetoothDevice>;
     referringDevice?: BluetoothDevice
