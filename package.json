@@ -1,0 +1,28 @@
+{
+  "name": "liff.d.ts",
+  "version": "0.0.1",
+  "description": "Unofficial TypeScript type definitions for LIFF v2 API.",
+  "main": "index.js",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiyuan-lin/liff.d.ts.git"
+  },
+  "keywords": [
+    "line",
+    "liff",
+    "typescript"
+  ],
+  "author": "Zhiyuan Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhiyuan-lin/liff.d.ts/issues"
+  },
+  "homepage": "https://github.com/zhiyuan-lin/liff.d.ts#readme"
+}
