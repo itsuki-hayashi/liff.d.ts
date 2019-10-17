@@ -9,12 +9,12 @@ type LiffErrorCode = 'INIT_FAILED' | 'INVALID_ARGUMENT' | 'UNAUTHORIZED'
     | 'BLUETOOTH_CONNECTION_LOST' | 'BLUETOOTH_UNSUPPORTED_OPERATION'
     | 'BLUETOOTH_SERVICE_NOT_FOUND' | 'BLUETOOTH_CHARACTERISTIC_NOT_FOUND'
 
-type LiffError = {
+interface LiffError {
     code: LiffErrorCode
     message: string
 }
 
-type LiffUserProfile = {
+interface LiffUserProfile {
     userId: string
     displayName: string
     pictureUrl: string
