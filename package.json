@@ -4,7 +4,7 @@
   "description": "Unofficial TypeScript type definitions for LIFF v2 API.",
   "main": "index.js",
   "dependencies": {
-    "@line/bot-sdk": "^6.8.2"
+    "@line/bot-sdk": "^7.5.2"
   },
   "devDependencies": {},
   "scripts": {
